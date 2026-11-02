@@ -1,24 +1,31 @@
-# README
+# choose-your-sport
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+An empty Ruby on Rails 6 application skeleton, generated with `rails new` for an app idea called "Choose Your Sport". No features were built.
 
-Things you may want to cover:
+## Context
 
-* Ruby version
+Learning project. The repository has a single commit ("rails new", 8 January 2021) and contains only the files Rails generates for a new app. There are no models, controllers, views, routes, migrations or tests beyond the defaults, and the app never got past the scaffolding step.
 
-* System dependencies
+## Stack
 
-* Configuration
+- Ruby 2.6.6, Rails 6.0 (`~> 6.0.3`)
+- SQLite 3, Puma
+- Webpacker 4, Turbolinks, Sass
+- Minitest with Capybara and Selenium for system tests (no tests written)
 
-* Database creation
+## Running it
 
-* Database initialization
+With Ruby 2.6.6, Bundler, Node.js and Yarn installed:
 
-* How to run the test suite
+```bash
+bundle install
+yarn install
+bin/rails db:prepare
+bin/rails server
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+The app shows only the default Rails welcome page, because no routes are defined.
 
-* Deployment instructions
+## Status
 
-* ...
+Archived learning project, not maintained.
